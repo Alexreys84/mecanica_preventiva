@@ -23,10 +23,73 @@ body {
 .Container {
     margin: 0 auto;
   }
+
+  .Flex{
+    display: flex;
+    justify-content:space-between;
+    background-color: aliceblue;
+  }
+
+
+  /* Topo do Site*/
+  #topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+  }
   
 
     
-/* Smarytphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* Smarytphone Portrait 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* Cabeçalho*/
+header {
+    height: 120px;
+    
+
+}
+#logo img{
+    width: 215px;
+    height: 110px;
+
+}
+#check{
+    display: none;
+
+}
+label {
+    font-size: 3em;
+    padding-right: 15px;
+
+}
+
+
+nav ul {
+    list-style: none;
+    background-color: rgba(52, 53, 56, 0.95);
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 50%;
+    transition: all 0.5s;
+  }
+  
+  #check:checked ~ ul {
+    right: 0;
+  }
+  
+  nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+    text-align: right;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
@@ -74,4 +137,98 @@ body {
      .Container{
         max-width: 1140px;
     }
+  /* Cabeçalho */
+  header {
+    height: 120px;
+  }
+
+  #logo img {
+    width: 235px;
+    height: 130px;
+    margin-top: 15px;
+  }
+
+  label {
+    display: none;
+  }
+
+  nav ul {
+    position: static;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 15px;
+  }
+
+  nav ul li {
+    float: left;
+    border: 0;
+  }
+
+  nav ul li a {
+    color: #343538;
+  }
+
+  nav ul li a:hover {
+    color: #c00000;
+  }
+
+  /* Destaque */
+  main {
+    height: 60vh;
+  }
+
+  main h1 {
+    font-size: 7em;
+  }
+
+  /* Sobre */
+  #sobre {
+    background-attachment: fixed;
+  }
+
+  #destaqueSobre {
+    display: inline;
+  }
+
+  #destaqueSobre img {
+    border-radius: 50%;
+    margin-right: 50px;
+  }
+
+  /* One page */
+  .Flex3 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* Wireframe */
+  #wireframe {
+    background-attachment: fixed;
+  }
+
+  #wireframe span {
+    display: inline;
+  }
+
+  /* Rodapé */
+  .Flex6 {
+    flex-direction: row-reverse;
+  }
+
+  address {
+    padding-top: 50px;
+  }
+
+  #iconeLocal {
+    display: inline;
+  }
+
+  #iconeMapa {
+    display: none;
+  }
+
+  #googleMaps {
+    display: inline;
+  }
 }
