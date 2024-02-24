@@ -27,7 +27,7 @@ body {
   .Flex{
     display: flex;
     justify-content:space-between;
-    background-color: aliceblue;
+    background-color:white;
   }
 
 
@@ -89,7 +89,25 @@ nav ul {
     text-decoration: none;
     color: #fff;
   }
+  /* Destaque*/
+  main{
+    height: 65vh;
+    background: url(img/banner.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  main h1 {
+    font-size: 3.0em;
 
+  }
+main h2{
+    font-size: 2.5em;
+
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
@@ -102,6 +120,11 @@ nav ul {
         max-width: 540px;
     }
 }
+/*destaque*/
+main h1, main h2{
+  text-shadow: #000 0.05em 0.05em 0.05em;
+
+}
 
 /* Table Portrat >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px){
@@ -113,7 +136,18 @@ nav ul {
      .Container{
         max-width: 720px;
     }
+    /*Destaque*/
+    main{
+      height: 45vh;
+    }
+    main h1{
+      font-size: 5.5em;
+    }
+    main h2 {
+      font-size: 2em;
+    }
 }
+
 
  /* Tablet landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
  @media (min-width: 992px){
@@ -124,6 +158,10 @@ nav ul {
      /*Layout*/
      .Container{
         max-width: 960px;
+    }
+    /*Destaque*/
+    main{
+      height: 70vh;
     }
 }
 
@@ -137,14 +175,18 @@ nav ul {
      .Container{
         max-width: 1140px;
     }
+       /*Destaque*/
+       main{
+        height: 70vh;
+      }
   /* Cabeçalho */
   header {
     height: 120px;
   }
 
   #logo img {
-    width: 235px;
-    height: 130px;
+    width: 200px;
+    height: 100px;
     margin-top: 15px;
   }
 
@@ -166,7 +208,7 @@ nav ul {
   }
 
   nav ul li a {
-    color: #343538;
+    color: black;
   }
 
   nav ul li a:hover {
