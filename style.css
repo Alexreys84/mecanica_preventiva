@@ -1,6 +1,31 @@
 /*Folha de estilo do site one page Mecanica Preventiva 
 @author alex Reis 
 */
+
+/* Importação Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/*CSS reset*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+}
+
+/* Layout */
+.Container {
+    margin: 0 auto;
+  }
+  
+
+    
 /* Smarytphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -8,6 +33,10 @@
     body{
         background-color: white
 
+    }
+    /*Layout*/
+    .Container{
+        max-width: 540px;
     }
 }
 
@@ -17,6 +46,10 @@
         background-color: white
         
     }
+     /*Layout*/
+     .Container{
+        max-width: 720px;
+    }
 }
 
  /* Tablet landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -25,6 +58,10 @@
         background-color: white
         
     }
+     /*Layout*/
+     .Container{
+        max-width: 960px;
+    }
 }
 
  /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -32,5 +69,9 @@
     body{
         background-color: white
         
+    }
+     /*Layout*/
+     .Container{
+        max-width: 1140px;
     }
 }
