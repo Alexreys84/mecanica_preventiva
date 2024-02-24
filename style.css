@@ -1,9 +1,36 @@
 /*Folha de estilo do site one page Mecanica Preventiva 
 @author alex Reis 
 */
-body{
-    background-color: black;
-    
+/* Smarytphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 576px){
+    body{
+        background-color: black
 
+    }
+}
+
+/* Table Portrat >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 768px){
+    body{
+        background-color: black
+        
+    }
+}
+
+ /* Tablet landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+ @media (min-width: 992px){
+    body{
+        background-color: black
+        
+    }
+}
+
+ /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+ @media (min-width: 1200px){
+    body{
+        background-color: black
+        
+    }
 }
