@@ -6,7 +6,7 @@
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
     body{
-        background-color: black
+        background-color: white
 
     }
 }
@@ -14,7 +14,7 @@
 /* Table Portrat >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px){
     body{
-        background-color: black
+        background-color: white
         
     }
 }
@@ -22,7 +22,7 @@
  /* Tablet landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
  @media (min-width: 992px){
     body{
-        background-color: black
+        background-color: white
         
     }
 }
@@ -30,7 +30,7 @@
  /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
  @media (min-width: 1200px){
     body{
-        background-color: black
+        background-color: white
         
     }
 }
